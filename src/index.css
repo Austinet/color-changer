@@ -1,0 +1,11 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --violet: blueviolet;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

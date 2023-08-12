@@ -1,0 +1,46 @@
+@import url(/src/index.css);
+
+#color-container {
+    height: 90vh;
+    display: grid;
+    place-items: center;
+}
+
+.color-details {
+    text-align: center;
+}
+
+.color-details h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.color-details .btn {
+    width: 180px;
+    height: 48px;
+    background-color: var(--white);
+    font-size: 1.2rem;
+    border: 2px solid var(--black);
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.color-details .btn:hover {
+    background-color: var(--violet);
+    border-color: var(--white);
+    color: var(--white);
+}
+
+@media(max-width: 500px) {
+    .color-details h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .color-details .btn {
+        width: 150px;
+        height: 45px;
+    }
+}

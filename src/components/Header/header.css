@@ -1,0 +1,53 @@
+@import url(/src/index.css);
+
+header {
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.2rem;
+}
+
+#header {
+    max-width: 1400px;
+    height: 9.6vh;
+    margin: auto;
+    padding: 1.4rem 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header h1 {
+    font-size: 1.7rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 1.3rem;
+}
+
+nav a {
+    font-size: 1.3rem;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media(max-width: 500px) {
+    #header h1 {
+        font-size: 1.4rem;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    nav li {
+        margin: 0 0.5rem;
+    }
+
+}
