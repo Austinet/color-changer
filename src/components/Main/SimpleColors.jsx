@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './main.css'
-import colorArray from '../../data'
+// import colorArray from '../../data'
+import colorArray from '/src/data.js'
+
 
 
 const SimpleColors = () => {

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {hexArray} from '../../data'
+import {hexArray} from '/src/data.js'
 import './main.css'
 
 
