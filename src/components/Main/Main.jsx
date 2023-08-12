@@ -1,12 +1,10 @@
-// import { useState } from 'react'
 import HexColors from './HexColors'
-import './main.css'
 import SimpleColors from './simpleColors'
 import PropTypes from 'prop-types'
+import './main.css'
 
 
 const Main = ({mode}) => {
-
   return (
     <main>
       {

@@ -15,8 +15,8 @@
 
 ## Overview
 
-Replicate the design on the figma file with link:
-- [link](https://www.figma.com/file/fvcFNUbk7tFpBicPIs3Wb4/KodeCamp-Task?type=design&node-id=1-566&mode=design&t=eHIHChW3HDRAu6I7-0)
+Replicate the JavaScript page with ReactJs with link:
+- [link](https://odomfavour.github.io/javascipt-dom-projects/simple-color.html)
 
 ### Screenshot
 
@@ -49,7 +49,7 @@ Keep up with ReactJs
 
 ### Useful resources
 
-- [ Youtube](https://www.Youtube.com) 
+- [ Youtube](https://www.Youtube.com)
 - [Google  ](https://www.Google.com) 
 
 ## Author
