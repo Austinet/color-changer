@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import {hexArray} from '/src/data.js'
+// import { hexArray } from '/src/data.js'
 import './main.css'
 
 
 const HexColors = () => {
     const  [colour, setColour] = useState("#ffffff")
+    const hexArray = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"]
 
     const getRandomNum = () => {
         let ranNum  = Math.floor(Math.random() * hexArray.length);

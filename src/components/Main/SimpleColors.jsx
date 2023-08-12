@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './main.css'
-// import colorArray from '../../data'
-import colorArray from '/src/data.js'
+import colorArray from '/src/utils/data.js'
 
 
 
